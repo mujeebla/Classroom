@@ -36,26 +36,28 @@ st.write(c)
 
 
 # import altair as alt
-from vega_datasets import data
+# from vega_datasets import data
 
-source = data.cars()
+# source = data.cars()
 
-brush = alt.selection_interval()
+# brush = alt.selection_interval()
 
-points = alt.Chart(source).mark_point().encode(
-    x='Horsepower',
-    y='Miles_per_Gallon',
-    color=alt.condition(brush, 'Origin', alt.value('lightgray'))
-).add_params(
-    brush
-)
+# points = alt.Chart(source).mark_point().encode(
+#     x='Horsepower',
+#     y='Miles_per_Gallon',
+#     color=alt.condition(brush, 'Origin', alt.value('lightgray'))
+# ).add_params(
+#     brush
+# )
 
-bars = alt.Chart(source).mark_bar().encode(
-    y='Origin',
-    color='Origin',
-    x='count(Origin)'
-).transform_filter(
-    brush
-)
-st.write(points & bars)
+# bars = alt.Chart(source).mark_bar().encode(
+#     y='Origin',
+#     color='Origin',
+#     x='count(Origin)'
+# ).transform_filter(
+#     brush
+# )
+# st.write(points & bars)
 # points & bars
+
+# source
