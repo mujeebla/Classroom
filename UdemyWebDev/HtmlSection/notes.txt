@@ -1,0 +1,2 @@
+diffchecker.com - to compare two html docs
+picsum.photos - for random photos, forward slash with image size i.e 200

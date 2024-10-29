@@ -1,0 +1,29 @@
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#orange {
+    color: orange;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+    color: yellow;
+}
+
+.color-title {
+    font-weight: normal;
+}
+
+/* Use CSS (not HTML) to make all the images 200px heigh and 200px wide.  */
+img {
+    height: 200px;
+    width: 200px;
+}
